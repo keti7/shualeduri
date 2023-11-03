@@ -189,3 +189,32 @@ footer img{
     box-shadow: 0px 4px 25px 0px rgba(194, 194, 194, 0.10);
     flex-wrap: wrap-reverse;
 }
+@media (max-width:1024px) {
+    .images{
+        width: 335px;
+        height: 435px;
+        flex-shrink: 0;
+        display: block;
+        flex-wrap: wrap-reverse;
+    }
+    .centered{
+        width: 241px;
+    }
+    .green-button{
+        display: none;
+    }
+    .box{
+        width: 375px;
+        height: 739px;
+        flex-shrink: 0;
+        display: block;
+        flex-wrap: wrap-reverse;
+    }
+    .nav-item{
+        display: none;
+    }
+    footer{
+        width: 375px;
+        flex-shrink: 0;
+    }
+}
